@@ -1,0 +1,41 @@
+/* Add mobile styles for the component here.  */
+.home-panel{
+    vertical-align: center; 
+   
+    
+}
+
+.description-label{
+    margin-bottom: 15;
+}
+.txt{
+    background-size:cover;
+}
+.border-primary,
+.border-warning,
+.border-danger,
+.border-info,
+.border-dark,
+.border-success {
+    border-width: 1.5;
+}
+.bg{
+
+    width: 100;
+}
+
+.border-primary {
+    border-color: royalblue;
+}
+
+.border-info {
+    border-color: skyblue;
+}
+
+.border-warning {
+    border-color: orange;
+}
+
+.border-danger {
+    border-color: red;
+}

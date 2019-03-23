@@ -1,0 +1,36 @@
+<GridLayout class="ge" backgroundImage="~/assets/images/bg1.jpg" >
+    <ScrollView class="page">
+        <StackLayout class="home-panel">
+            <!--Add your page content here-->
+            <WrapLayout flexDirection="row">
+                <Image src="~/assets/images/m1.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Gayatri Mantra"></Label>
+                <Button class="pull-right" text=" play" height="40"  [nsRouterLink]="['/p1']" ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout flexDirection="row">
+                <Image src=" ~/assets/images/m2.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Hanuman Chalisa"></Label>
+                <Button class="pull-right" text=" play" height="40" [nsRouterLink]="['/p2']"  ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout flexDirection="row">
+                <Image src=" ~/assets/images/m3.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Sarsawati vadna"></Label>
+                <Button class="pull-right" text=" play" height="40" [nsRouterLink]="['/p3']"  ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout>
+                <Image src="~/assets/images/m4.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Morning prayer"></Label>
+                <Button class="pull-right" text=" play"  height="40"   [nsRouterLink]="['/p4']" ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+           
+        </StackLayout>
+    </ScrollView>
+</GridLayout>

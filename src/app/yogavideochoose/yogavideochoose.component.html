@@ -1,0 +1,36 @@
+<GridLayout class="ge" backgroundImage="~/assets/images/bg1.jpg" >
+    <ScrollView class="page">
+        <StackLayout class="home-panel">
+            <!--Add your page content here-->
+            <WrapLayout flexDirection="row">
+                <Image src="~/assets/images/m1.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="How to meditate"></Label>
+                <Button class="pull-right" text=" play" height="40"  [nsRouterLink]="['/y1']" ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout flexDirection="row">
+                <Image src=" ~/assets/images/m2.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Super deep meditation"></Label>
+                <Button class="pull-right" text=" play" height="40" [nsRouterLink]="['/y2']"  ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout flexDirection="row">
+                <Image src=" ~/assets/images/m3.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="guided meditation"></Label>
+                <Button class="pull-right" text=" play" height="40" [nsRouterLink]="['/y3']"  ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+            <WrapLayout>
+                <Image src="~/assets/images/m4.jpg"
+                style="width: 30%" height="60" class="thumb img-circle"></Image>
+                <Label class="txt" textWrap="true" text="Inner peace meditation"></Label>
+                <Button class="pull-right" text=" play"  height="40"   [nsRouterLink]="['/y4']" ></Button>
+                <StackLayout class="hr-dark m-5"></StackLayout>
+            </WrapLayout>
+           
+        </StackLayout>
+    </ScrollView>
+</GridLayout>

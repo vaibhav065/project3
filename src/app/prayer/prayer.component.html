@@ -1,0 +1,9 @@
+<StackLayout class="home-panel">
+    <Label class="label1" text="Prayer"> </Label>
+
+    <Button class="btn1" text="Videos" [nsRouterLink]="['/prayervideochoose']"></Button>
+    <Button class="btn1" text="SoundTrack" [nsRouterLink]="['/videochoose']" ></Button>
+    <Button class="btn1" text="Description" (tap)="onButtonTap()"></Button>
+    <Button class="btn1" text="Exit" [nsRouterLink]="['/choose-meditation']"></Button>
+</StackLayout>
+

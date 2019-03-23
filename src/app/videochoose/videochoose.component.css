@@ -1,0 +1,36 @@
+/* Add mobile styles for the component here.  */
+.grid1
+{
+
+
+margin-top: 100;
+
+}
+
+.bot{
+    margin-top:500;
+}
+.txt{
+    font-size:20;
+}
+.font-awesome {
+    font-family: font-awesome;
+   
+    font-size:40;
+}
+.one{
+    margin-left:90;
+
+}
+.second{ 
+    margin-left:30;
+}
+.third{
+    margin-left:30;
+}
+.slide{
+    background-color:#FA5010;
+}
+.bottom{
+    margin-top:500;
+}

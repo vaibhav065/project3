@@ -1,0 +1,36 @@
+
+<ListView [items]="audios" class="list-group">
+    <ng-template let-audio="item" let-i="index" let-odd="odd" let-even="even">
+        <StackLayout orientation="horizontal" class="list-group-item">
+            <Label [text]="audio.name" (tap)='changeAudio(audio)'></Label>
+        </StackLayout>
+    </ng-template>
+</ListView>
+
+
+
+<!--<StackLayout>
+
+    <Progress [value]="progress" ></Progress>
+    <Button class="btn btn-primary" [text]="isPlaying ? 'Pause' : 'Play'" (tap)="playPause()" class="bot"></Button>
+</StackLayout>-->
+<StackLayout class="bottom">
+        <Label  class="txt" [text]="audios.name"></Label>
+        <Slider class="slide" [value]="progress"></Slider>
+        <FlexboxLayout class="font-awesome">
+            <Label class="one" text="&#xf04c;"></Label>
+            <Label class="fa second" [text]="isPlaying ? 'pause' : 'play'" (tap)="playPause()"  margin-left="40"></Label>
+            <Label class="fa third" text='&#xf2b9;' margin-left="60"></Label>
+        </FlexboxLayout>
+   </StackLayout>
+
+<!--<StackLayout class="bottoms">
+    <Label  class="txt" text="Art of attention"></Label>
+    <Slider class="slide" value="200"></Slider>
+    <FlexboxLayout>
+        <Label class="fa one" text='&#xf2b9;'></Label>
+        <Label class="fa second" text='&#xf2b9;' margin-left="40"></Label>
+        <Label class="fa third" text='&#xf2b9;' margin-left="60"></Label>
+    </FlexboxLayout>
+</StackLayout>-->
+

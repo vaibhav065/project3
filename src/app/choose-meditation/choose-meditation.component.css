@@ -1,0 +1,21 @@
+.label1
+{
+background-size: cover;
+text-align: center;
+font-size: 30;
+font-family: sans-serif;
+color:white;
+background-position: center center ;
+margin-bottom:5px;
+
+}
+.heading{
+    text-align:center;
+    font-size: 30;
+    height:40;
+}
+GridLayout{
+    background:url('~/assets/images/bg1.jpg');
+    background-size:cover;
+}
+

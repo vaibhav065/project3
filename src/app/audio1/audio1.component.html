@@ -1,0 +1,11 @@
+<ListView class="list-group" [items]="countries" ng-click="audioOption()"
+    style="height:1250px">
+    <ng-template let-country="item">
+        <FlexboxLayout flexDirection="row" class="list-group-item">
+
+            <Label [text]="country.id + '    '+ country.name" class="list-group-item-heading"
+                height="40"></Label>
+        
+        </FlexboxLayout>
+    </ng-template>
+</ListView>

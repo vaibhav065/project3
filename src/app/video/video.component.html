@@ -1,0 +1,10 @@
+<GridLayout>
+	<ScrollView class="page">
+		<StackLayout class="home-panel">
+			<StackLayout class="home-panel">
+				<Progress [value]="progress" ></Progress>
+				<Button class="btn btn-primary" [text]="isPlaying ? 'Pause' : 'Play'" (tap)="playPause()" ></Button>
+			</StackLayout>
+		</StackLayout>
+	</ScrollView>
+</GridLayout>

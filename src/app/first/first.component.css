@@ -1,0 +1,38 @@
+/* Add mobile styles for the component here.  */
+.layoutBackgroundImageFromFolder{
+    background-image:url('~/assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+StackLayout {
+  padding: 10 16;
+  background-color: #f0f0f0;
+}
+.label1
+{
+    font-family: 'sans-serif';
+    color: white;
+    text-transform: uppercase;
+}
+
+Actionbar{
+  height : o;
+}
+.btn{
+  
+  border-radius:45px;
+}
+.btn{
+
+  animation-name: btn;
+  animation-duration:1s;
+  animation-delay:  1s;
+}
+@keyframes btn{
+    from{transform:rotate(0 deg); }
+    to {transform: rotate(360 deg);}
+}
+
+

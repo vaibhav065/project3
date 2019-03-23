@@ -1,0 +1,42 @@
+/* Add mobile styles for the component here.  */
+.home-panel{
+
+
+
+
+
+
+    background-image:url('~/assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20;
+    
+}
+
+
+
+.description-label{
+    margin-bottom: 50;
+}
+.label1
+{
+    padding: 10 0 60 0;
+    font-size: 40;
+    border-color: white;
+    margin-top: 100;
+text-align:center;
+}
+.btn1
+{
+    color: white;
+    width: 200;
+    border-radius: 20;
+    background-color:#FF842B;
+    padding :20;
+    margin-bottom: 10;   
+}
+
+
+
+ 
+    
